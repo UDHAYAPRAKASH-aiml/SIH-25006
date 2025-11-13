@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:13-11-25
+## Reference Number:212224240177
+## Name:udhaya prakash v
 ## Problem Title
 SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
 ## Problem Description
@@ -41,27 +41,66 @@ Ministry of Fisheries, Animal Husbandry & Dairying
 Department of Animal Husbandry & Dairying (DoAH&D)
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
-
+```
+The proposed solution is a Digital Farm Management Portal designed specifically to help pig and poultry farmers implement effective biosecurity practices.
+This platform will serve as a centralized ecosystem where farmers, veterinarians, field officers, and policymakers can access tools, guidelines,
+and real-time data necessary for disease prevention and farm management.
+```
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
-
+```
+Frontend
+React.js / Next.js
+Flutter / React Native (for mobile app)
+Tailwind CSS / Bootstrap
+Backend
+Node.js / Express
+Python (for AI risk scoring models)
+FastAPI (for ML microservices)
+Database
+PostgreSQL / MongoDB
+Firebase (for authentication and real-time sync)
+AI/ML Components
+Risk prediction model (Random Forest / Gradient Boosting)
+NLP-powered chatbot for farmer support
+Additional Tools
+GIS Mapping: Leaflet.js / Mapbox
+Cloud: AWS / Azure / GCP
+Notification system: FCM, SMS gateway
+IoT integration (optional phase): temperature sensors, entry logging
+```
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+```
+Technically feasible: Uses widely available technologies (React, Node, ML).
+Economically feasible: Low development cost; scalable cloud infrastructure.
+Operationally feasible: Designed for rural settings with low bandwidth.
+Government backing: Aligns with DoAH&D goals, improving adoption.
+```
+## flow chart:
 
-## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+<img width="1024" height="1536" alt="ChatGPT Image Nov 13, 2025, 09_46_13 AM" src="https://github.com/user-attachments/assets/61fd9edc-c66e-4b29-9c08-dad1459852c7" />
 
+##Impact and Benefits
+```
+Potential Impact on Target Audience
+Helps farmers detect risks before they become outbreaks.
+Improves compliance with national and international standards.
+Reduces economic losses by preventing disease spread.
+Empowers small and marginal farmers with digital tools.
+
+Benefits of the Solution
+Social Benefits:
+Better health and hygiene in rural communities.
+Increased knowledge and awareness in farming households.
+Economic Benefits
+Reduced mortality and increased farm productivity.
+Higher profits through disease-free certification.
+Environmental Benefits
+Encourages safe waste disposal and sanitation practices.
+Reduces antibiotic misuse through preventive care.
+```
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+```
+https://dahd.nic.in
+https://www.woah.org/
+https://www.fao.org/
+```
